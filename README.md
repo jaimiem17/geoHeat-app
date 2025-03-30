@@ -1,0 +1,97 @@
+# GeoHeat - Geothermal Well Analysis Dashboard
+
+An interactive dashboard for analyzing geothermal well locations and energy potential in the Sabine Uplift region of Northwest Louisiana and East Texas.
+
+## Features
+
+- **Interactive Map**: Visualize geothermal well locations and heat flow data
+- **Data Analysis**: Detailed analysis of well data with temperature profiles and statistics
+- **Data Processing**: Tools for processing and analyzing geothermal data
+
+## Prerequisites
+
+- Node.js 18.x or later
+- npm 9.x or later
+- Mapbox access token
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/geoheat-app.git
+   cd geoheat-app
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env.local` file in the root directory and add your Mapbox token:
+
+   ```
+   VITE_MAPBOX_TOKEN=your_mapbox_token_here
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+```
+├── src/                    # Source code
+│   ├── app/               # Application pages and layouts
+│   ├── components/        # React components
+│   ├── utils/            # Utility functions and data processing
+│   └── types/            # TypeScript type definitions
+├── data/                  # Data files and resources
+│   ├── SMU/              # SMU Geothermal Laboratory data
+│   ├── gravity/          # Gravity data files
+│   └── temperature/      # Temperature and heat flow data
+├── public/               # Public static assets
+└── [configuration files] # Various config files (vite, tailwind, etc.)
+```
+
+## Data Organization
+
+The application's data is organized in the following structure:
+
+- `data/SMU/`: Contains SMU Geothermal Laboratory data including:
+  - Bottom Hole Temperature (BHT) data
+  - Heat flow measurements
+  - Well information
+- `data/gravity/`: Contains gravity data files including:
+  - Texas and Louisiana gravity station data
+  - Merged gravity data for the region
+  - Processed and cleaned gravity data
+- `data/temperature/`: Contains temperature and heat flow data including:
+  - Regional temperature data
+  - Heat flow measurements
+  - Temperature profiles
+
+## Data Sources
+
+The application uses data from:
+
+- SMU Geothermal Laboratory (well data)
+- USGS (gravity data)
+- Regional temperature data
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
