@@ -5,8 +5,19 @@ An interactive dashboard for analyzing geothermal well locations and energy pote
 ## Features
 
 - **Interactive Map**: Visualize geothermal well locations and heat flow data
-- **Data Analysis**: Detailed analysis of well data with temperature profiles and statistics
+- **Well Analysis**: Detailed analysis of well data with temperature profiles and statistics
+- **Well Finder**: Search and filter wells based on various criteria
+- **Optimal Location**: Find ideal locations for new geothermal wells
+- **Resource Assessment**: Comprehensive view of geothermal resources in the region
 - **Data Processing**: Tools for processing and analyzing geothermal data
+
+## Tech Stack
+
+- **Frontend Framework**: React with Vite
+- **Styling**: Tailwind CSS
+- **Mapping**: Mapbox GL JS
+- **Type Safety**: TypeScript
+- **Development Tools**: ESLint, PostCSS
 
 ## Prerequisites
 
@@ -19,7 +30,7 @@ An interactive dashboard for analyzing geothermal well locations and energy pote
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/geoheat-app.git
+   git clone https://github.com/jaimiem17/geoheat-app.git
    cd geoheat-app
    ```
 
@@ -47,8 +58,10 @@ An interactive dashboard for analyzing geothermal well locations and energy pote
 
 ```
 ├── src/                    # Source code
-│   ├── app/               # Application pages and layouts
 │   ├── components/        # React components
+│   │   ├── features/     # Feature-specific components
+│   │   ├── home/         # Homepage components
+│   │   └── map/          # Map-related components
 │   ├── utils/            # Utility functions and data processing
 │   └── types/            # TypeScript type definitions
 ├── data/                  # Data files and resources
