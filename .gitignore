@@ -55,3 +55,8 @@ data/
 *.xlsx
 *.ncml
 *.pdf
+
+# Large files
+*.dmg
+*.ipynb
+*.png
