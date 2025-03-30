@@ -15,9 +15,20 @@ An interactive dashboard for analyzing geothermal well locations and energy pote
 
 - **Frontend Framework**: React with Vite
 - **Styling**: Tailwind CSS
-- **Mapping**: Mapbox GL JS
+- **Mapping**:
+  - Mapbox GL JS
+  - Leaflet
+- **Data Visualization**:
+  - Recharts
+  - Chart.js
 - **Type Safety**: TypeScript
-- **Development Tools**: ESLint, PostCSS
+- **Development Tools**:
+  - ESLint: Code linting and style enforcement
+  - PostCSS: CSS processing and transformation
+- **Additional Libraries**:
+  - React Router: Navigation and routing
+  - React Query: Data fetching and caching
+  - Axios: HTTP client
 
 ## Prerequisites
 
