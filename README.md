@@ -107,8 +107,3 @@ The application uses data from:
 - SMU Geothermal Laboratory (well data)
 - USGS (gravity data)
 - Regional temperature data
-  
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
