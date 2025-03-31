@@ -34,7 +34,6 @@ An interactive dashboard for analyzing geothermal well locations and energy pote
 
 - Node.js 18.x or later
 - npm 9.x or later
-- Mapbox access token
 
 ## Getting Started
 
@@ -51,19 +50,13 @@ An interactive dashboard for analyzing geothermal well locations and energy pote
    npm install
    ```
 
-3. Create a `.env.local` file in the root directory and add your Mapbox token:
-
-   ```
-   VITE_MAPBOX_TOKEN=your_mapbox_token_here
-   ```
-
-4. Start the development server:
+3. Start the development server:
 
    ```bash
    npm run dev
    ```
 
-5. Open [http://localhost:5173](http://localhost:5173) in your browser.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Project Structure
 
@@ -111,3 +104,7 @@ The application uses data from:
 ## License
 
 This project is proprietary software. All rights reserved. See the [LICENSE](LICENSE) file for details.
+
+## Map Attribution
+
+This project uses OpenStreetMap data and tiles. © OpenStreetMap contributors. For more information, visit [OpenStreetMap](https://www.openstreetmap.org/copyright).
